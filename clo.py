@@ -16,9 +16,6 @@ def select(x):
         pyautogui.moveTo(668, 384)
 
 
-# pyautogui.moveTo(960, 580)
-
-
 def power():
     while True:
         pyautogui.click()
@@ -38,4 +35,3 @@ if __name__ == "__main__":
         "4.1920 x 1080 (Full HD) \n 5. 1680 x 1050 (WSXGA+) \n 6.1336 x 768 (WXGA) \n"))
     select(a)
     power()
-    
